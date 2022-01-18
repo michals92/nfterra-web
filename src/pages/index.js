@@ -6,6 +6,16 @@ function openLightpaper() {
   window.open(url);
 }
 
+function openDiscord() {
+  const url = 'https://discord.gg/PaF6wqVv76';
+  window.open(url);
+}
+
+function openTelegram() {
+  const url = 'https://t.me/+FF8S6LWeJNI3Mzg0';
+  window.open(url);
+}
+
 function sendEmail() {
   var mail = 'mailto:info@codeers.cz';
   var a = document.createElement('a');
@@ -28,8 +38,8 @@ const IndexPage = () => {
             <button id="getintouch" onClick={sendEmail}>Contact us</button>
             
             <div id="socials">
-              <button id="discord"/>
-              <button id="telegram"/>
+              <button id="discord" onClick={openDiscord}/>
+              <button id="telegram" onClick={openTelegram}/>
             </div>
           </div>
           <div id="right-side">

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
       title: `NFTerra`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.nfterra.app`
   },
   plugins: [{
     resolve: 'gatsby-plugin-google-analytics',
