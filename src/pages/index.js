@@ -5,6 +5,14 @@ function openLightpaper() {
   const url = './lightpaper.pdf';
   window.open(url);
 }
+
+function sendEmail() {
+  var mail = 'mailto:info@codeers.cz';
+  var a = document.createElement('a');
+  a.href = mail;
+  a.click();
+};
+
 // markup
 const IndexPage = () => {
   return (
@@ -17,7 +25,7 @@ const IndexPage = () => {
             <h1>NFTerra</h1>
             <p>An NFT-based game that connects digital art<br />with real places and allows players to explore it.</p>
             <button id="lightpaper" onClick={openLightpaper}>Lightpaper</button>
-            <button id="getintouch">Contact us</button>
+            <button id="getintouch" onClick={sendEmail}>Contact us</button>
             
             <div id="socials">
               <button id="discord"/>
