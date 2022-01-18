@@ -47,7 +47,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div id="footer">
-          © 2021 codeers
+          <a href="https://www.codeers.cz">© 2022 codeers</a>
         </div>
       </div>
     </main>
