@@ -54,7 +54,7 @@ html,
     background-color: #AD0262;
     height: 5%;
     color: white;
-    padding-top: 10px;
+    text-align: center;
   }
 
   #header {
@@ -117,7 +117,7 @@ html,
   }
 
   #main {
-    height: 100%;
+    height: auto;
   }
 
   #home-page {
